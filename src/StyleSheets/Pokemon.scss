@@ -1,4 +1,18 @@
+.name {
+  margin: 0;
+}
+.img {
+  margin: 5px 0;
+  width: 100px;
+}
 .types {
   list-style-type: none;
-  display: block;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0;
+}
+.typesList {
+  margin: 0 5px;
+  font-weight: bold;
 }

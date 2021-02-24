@@ -3,7 +3,11 @@ import "../StyleSheets/Pokemon.scss";
 const Pokemon = (props) => {
   console.log(props.PokeProp);
   const PokemonTypes = props.PokeProp.types.map((types, i) => {
-    return <li key={i}>{types}</li>;
+    return (
+      <li key={i} className="typesList">
+        {types}
+      </li>
+    );
   });
   return (
     <article>
